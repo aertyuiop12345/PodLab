@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen bg-neutral-950 text-white antialiased selection:bg-orange-500/30 selection:text-orange-100"
+    class="min-h-screen antialiased selection:bg-orange-500/30 selection:text-orange-100"
   >
     <Header />
     <slot />

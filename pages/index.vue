@@ -56,7 +56,7 @@
           href="#episodes"
           class="bg-[#D4A853] text-[#0A0A0A] px-10 py-5 rounded-full font-semibold text-sm uppercase tracking-widest hover:bg-white hover:scale-105 transition-all flex items-center justify-center gap-3"
         >
-          <iconify-icon icon="solar:play-linear" class="text-xl"></iconify-icon>
+          <Icon name="solar:play-linear" class="text-xl" />
           Écouter maintenant
         </a>
         <a
@@ -86,10 +86,10 @@
           <div
             class="glass-card p-8 rounded-2xl border-l-4 border-l-[#D4A853]/50 fade-up stagger-1 group hover:border-l-[#D4A853] transition-all"
           >
-            <iconify-icon
-              icon="solar:palette-linear"
+            <Icon
+              name="solar:palette-linear"
               class="text-3xl text-[#D4A853] mb-4"
-            ></iconify-icon>
+            />
             <h3 class="text-xl font-medium mb-2">Artistes invités</h3>
             <p class="text-sm font-light text-[#F0EDE6]/60">
               Découvrez le processus créatif et les doutes qui habitent les plus
@@ -99,10 +99,10 @@
           <div
             class="glass-card p-8 rounded-2xl border-l-4 border-l-white/10 fade-up stagger-2 group hover:border-l-[#D4A853] transition-all"
           >
-            <iconify-icon
-              icon="solar:case-linear"
+            <Icon
+              name="solar:case-linear"
               class="text-3xl text-[#D4A853] mb-4"
-            ></iconify-icon>
+            />
             <h3 class="text-xl font-medium mb-2">Entrepreneurs</h3>
             <p class="text-sm font-light text-[#F0EDE6]/60">
               Plongez dans les coulisses de la création d'entreprise, des échecs
@@ -112,10 +112,10 @@
           <div
             class="glass-card p-8 rounded-2xl border-l-4 border-l-white/10 fade-up stagger-3 group hover:border-l-[#D4A853] transition-all"
           >
-            <iconify-icon
-              icon="solar:heart-linear"
+            <Icon
+              name="solar:heart-linear"
               class="text-3xl text-[#D4A853] mb-4"
-            ></iconify-icon>
+            />
             <h3 class="text-xl font-medium mb-2">Business &amp; Vie</h3>
             <p class="text-sm font-light text-[#F0EDE6]/60">
               L'équilibre fragile entre ambition dévorante et épanouissement
@@ -146,10 +146,10 @@
         <img
           src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
           alt="Guest"
-          class="w-full aspect-[4/5] object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+          class="w-full aspect-4/5 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
         />
         <div
-          class="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent opacity-90"
+          class="absolute inset-0 bg-linear-to-t from-[#0A0A0A] via-transparent to-transparent opacity-90"
         ></div>
         <div
           class="absolute bottom-0 left-0 p-8 w-full transform group-hover:-translate-y-2 transition-transform duration-500"
@@ -174,10 +174,10 @@
         <img
           src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
           alt="Guest"
-          class="w-full aspect-[4/5] object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+          class="w-full aspect-4/5 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
         />
         <div
-          class="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent opacity-90"
+          class="absolute inset-0 bg-linear-to-t from-[#0A0A0A] via-transparent to-transparent opacity-90"
         ></div>
         <div
           class="absolute bottom-0 left-0 p-8 w-full transform group-hover:-translate-y-2 transition-transform duration-500"
@@ -202,10 +202,10 @@
         <img
           src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
           alt="Guest"
-          class="w-full aspect-[4/5] object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+          class="w-full aspect-4/5 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
         />
         <div
-          class="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent opacity-90"
+          class="absolute inset-0 bg-linear-to-t from-[#0A0A0A] via-transparent to-transparent opacity-90"
         ></div>
         <div
           class="absolute bottom-0 left-0 p-8 w-full transform group-hover:-translate-y-2 transition-transform duration-500"
@@ -255,10 +255,10 @@
               class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
               >Épisode #124</span
             >
-            <iconify-icon
-              icon="solar:play-circle-linear"
+            <Icon
+              name="solar:play-circle-linear"
               class="text-4xl text-white/20 group-hover:text-[#D4A853] group-hover:scale-110 transition-all"
-            ></iconify-icon>
+            />
           </div>
           <h3
             class="text-xl font-medium mb-2 group-hover:text-[#D4A853] transition-colors"
@@ -273,14 +273,14 @@
           >
             <span class="text-xs font-light">54 min</span>
             <div class="flex gap-3">
-              <iconify-icon
-                icon="solar:medal-star-linear"
+              <Icon
+                name="solar:medal-star-linear"
                 class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              ></iconify-icon>
-              <iconify-icon
-                icon="solar:share-linear"
+              />
+              <Icon
+                name="solar:share-linear"
                 class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              ></iconify-icon>
+              />
             </div>
           </div>
         </div>
@@ -293,10 +293,10 @@
               class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
               >Épisode #123</span
             >
-            <iconify-icon
-              icon="solar:play-circle-linear"
+            <Icon
+              name="solar:play-circle-linear"
               class="text-4xl text-white/20 group-hover:text-[#D4A853] group-hover:scale-110 transition-all"
-            ></iconify-icon>
+            />
           </div>
           <h3
             class="text-xl font-medium mb-2 group-hover:text-[#D4A853] transition-colors"
@@ -311,14 +311,14 @@
           >
             <span class="text-xs font-light">42 min</span>
             <div class="flex gap-3">
-              <iconify-icon
-                icon="solar:medal-star-linear"
+              <Icon
+                name="solar:medal-star-linear"
                 class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              ></iconify-icon>
-              <iconify-icon
-                icon="solar:share-linear"
+              />
+              <Icon
+                name="solar:share-linear"
                 class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              ></iconify-icon>
+              />
             </div>
           </div>
         </div>
@@ -331,10 +331,10 @@
               class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
               >Épisode #122</span
             >
-            <iconify-icon
-              icon="solar:play-circle-linear"
+            <Icon
+              name="solar:play-circle-linear"
               class="text-4xl text-white/20 group-hover:text-[#D4A853] group-hover:scale-110 transition-all"
-            ></iconify-icon>
+            />
           </div>
           <h3
             class="text-xl font-medium mb-2 group-hover:text-[#D4A853] transition-colors"
@@ -349,14 +349,14 @@
           >
             <span class="text-xs font-light">68 min</span>
             <div class="flex gap-3">
-              <iconify-icon
-                icon="solar:medal-star-linear"
+              <Icon
+                name="solar:medal-star-linear"
                 class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              ></iconify-icon>
-              <iconify-icon
-                icon="solar:share-linear"
+              />
+              <Icon
+                name="solar:share-linear"
                 class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              ></iconify-icon>
+              />
             </div>
           </div>
         </div>
@@ -369,13 +369,8 @@
     <div class="container mx-auto px-6 relative z-10">
       <div class="grid grid-cols-2 md:grid-cols-5 gap-10 text-center">
         <div class="fade-up stagger-1">
-          <iconify-icon
-            icon="solar:eye-linear"
-            class="text-2xl text-[#D4A853] mb-4"
-          ></iconify-icon>
-          <h4 class="text-3xl md:text-4xl font-medium mb-1" data-count="500000">
-            0
-          </h4>
+          <Icon name="solar:eye-linear" class="text-2xl text-[#D4A853] mb-4" />
+          <h4 class="text-3xl md:text-4xl font-medium mb-1">0</h4>
           <p
             class="text-[10px] font-semibold uppercase tracking-widest text-[#F0EDE6]/40"
           >
@@ -383,13 +378,11 @@
           </p>
         </div>
         <div class="fade-up stagger-2">
-          <iconify-icon
-            icon="solar:microphone-large-linear"
+          <Icon
+            name="solar:microphone-large-linear"
             class="text-2xl text-[#D4A853] mb-4"
-          ></iconify-icon>
-          <h4 class="text-3xl md:text-4xl font-medium mb-1" data-count="120">
-            0
-          </h4>
+          />
+          <h4 class="text-3xl md:text-4xl font-medium mb-1">0</h4>
           <p
             class="text-[10px] font-semibold uppercase tracking-widest text-[#F0EDE6]/40"
           >
@@ -397,13 +390,8 @@
           </p>
         </div>
         <div class="fade-up stagger-3">
-          <iconify-icon
-            icon="solar:user-linear"
-            class="text-2xl text-[#D4A853] mb-4"
-          ></iconify-icon>
-          <h4 class="text-3xl md:text-4xl font-medium mb-1" data-count="85000">
-            0
-          </h4>
+          <Icon name="solar:user-linear" class="text-2xl text-[#D4A853] mb-4" />
+          <h4 class="text-3xl md:text-4xl font-medium mb-1">0</h4>
           <p
             class="text-[10px] font-semibold uppercase tracking-widest text-[#F0EDE6]/40"
           >
@@ -411,13 +399,11 @@
           </p>
         </div>
         <div class="fade-up stagger-4">
-          <iconify-icon
-            icon="solar:music-note-linear"
+          <Icon
+            name="solar:music-note-linear"
             class="text-2xl text-[#D4A853] mb-4"
-          ></iconify-icon>
-          <h4 class="text-3xl md:text-4xl font-medium mb-1" data-count="60000">
-            0
-          </h4>
+          />
+          <h4 class="text-3xl md:text-4xl font-medium mb-1">0</h4>
           <p
             class="text-[10px] font-semibold uppercase tracking-widest text-[#F0EDE6]/40"
           >
@@ -425,13 +411,11 @@
           </p>
         </div>
         <div class="fade-up stagger-5">
-          <iconify-icon
-            icon="solar:earth-linear"
+          <Icon
+            name="solar:earth-linear"
             class="text-2xl text-[#D4A853] mb-4"
-          ></iconify-icon>
-          <h4 class="text-3xl md:text-4xl font-medium mb-1" data-count="30">
-            0
-          </h4>
+          />
+          <h4 class="text-3xl md:text-4xl font-medium mb-1">0</h4>
           <p
             class="text-[10px] font-semibold uppercase tracking-widest text-[#F0EDE6]/40"
           >
@@ -453,22 +437,22 @@
       <div
         class="flex flex-wrap justify-center items-center gap-10 md:gap-20 opacity-60"
       >
-        <iconify-icon
-          icon="simple-icons:spotify"
+        <Icon
+          name="simple-icons:spotify"
           class="text-4xl hover:text-[#1DB954] hover:opacity-100 transition-all cursor-pointer"
-        ></iconify-icon>
-        <iconify-icon
-          icon="simple-icons:applepodcasts"
+        />
+        <Icon
+          name="simple-icons:applepodcasts"
           class="text-4xl hover:text-[#9933CC] hover:opacity-100 transition-all cursor-pointer"
-        ></iconify-icon>
-        <iconify-icon
-          icon="simple-icons:youtube"
+        />
+        <Icon
+          name="simple-icons:youtube"
           class="text-4xl hover:text-[#FF0000] hover:opacity-100 transition-all cursor-pointer"
-        ></iconify-icon>
-        <iconify-icon
-          icon="simple-icons:deezer"
+        />
+        <Icon
+          name="simple-icons:deezer"
           class="text-4xl hover:text-[#EF5466] hover:opacity-100 transition-all cursor-pointer"
-        ></iconify-icon>
+        />
       </div>
     </div>
   </section>
@@ -477,7 +461,7 @@
   <section id="contact" class="py-32 relative">
     <div class="container mx-auto px-6">
       <div
-        class="max-w-4xl mx-auto rounded-[3rem] p-12 md:p-20 relative overflow-hidden bg-gradient-to-br from-[#1a1a1a] to-[#0A0A0A] border border-[#D4A853]/20"
+        class="max-w-4xl mx-auto rounded-[3rem] p-12 md:p-20 relative overflow-hidden bg-linear-to-br from-[#1a1a1a] to-[#0A0A0A] border border-[#D4A853]/20"
       >
         <div
           class="absolute top-0 right-0 -mt-20 -mr-20 w-64 h-64 bg-[#D4A853]/10 blur-[100px] rounded-full"
@@ -494,7 +478,7 @@
             <input
               type="email"
               placeholder="Votre email"
-              class="flex-grow bg-white/5 border border-white/10 rounded-full px-8 py-4 focus:outline-none focus:border-[#D4A853] transition-all text-sm font-light"
+              class="grow bg-white/5 border border-white/10 rounded-full px-8 py-4 focus:outline-none focus:border-[#D4A853] transition-all text-sm font-light"
             />
             <button
               class="bg-[#D4A853] text-[#0A0A0A] px-10 py-4 rounded-full font-semibold uppercase text-xs tracking-widest hover:bg-white transition-all"
@@ -507,3 +491,44 @@
     </div>
   </section>
 </template>
+<style scoped lang="scss">
+.soundwave {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 40px;
+}
+.bar {
+  width: 3px;
+  height: 10%;
+  background: #d4a853;
+  animation: bounce 1s ease-in-out infinite;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    height: 10%;
+  }
+  50% {
+    height: 80%;
+  }
+}
+
+.text-underline-grow {
+  position: relative;
+  display: inline-block;
+}
+.text-underline-grow::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #d4a853;
+  transition: width 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.active-reveal .text-underline-grow::after {
+  width: 100%;
+}
+</style>

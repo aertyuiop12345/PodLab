@@ -50,18 +50,18 @@
             <a
               href="#"
               class="text-xl opacity-50 hover:opacity-100 hover:text-[#D4A853] transition-all"
-              ><iconify-icon icon="simple-icons:instagram"></iconify-icon
-            ></a>
+              ><Icon name="simple-icons:instagram"
+            /></a>
             <a
               href="#"
               class="text-xl opacity-50 hover:opacity-100 hover:text-[#D4A853] transition-all"
-              ><iconify-icon icon="simple-icons:x"></iconify-icon
-            ></a>
+              ><Icon name="simple-icons:x"
+            /></a>
             <a
               href="#"
               class="text-xl opacity-50 hover:opacity-100 hover:text-[#D4A853] transition-all"
-              ><iconify-icon icon="simple-icons:linkedin"></iconify-icon
-            ></a>
+              ><Icon name="simple-icons:linkedin"
+            /></a>
           </div>
         </div>
       </div>
@@ -69,7 +69,6 @@
         class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between gap-4 text-[10px] font-light uppercase tracking-widest text-[#F0EDE6]/30"
       >
         <p>© 2024 PodLab Studio. Tous droits réservés.</p>
-        <p>Réalisé avec passion pour l'excellence.</p>
       </div>
     </div>
   </footer>

@@ -1,7 +1,7 @@
 <template>
   <nav
     id="navbar"
-    class="fixed top-0 w-full z-50 transition-all duration-500 border-b border-transparent py-6"
+    class="fixed top-0 w-full z-50 transition-all duration-500 border-b border-transparent py-6 bg-[#0a0a0a]"
   >
     <div class="container mx-auto px-6 flex justify-between items-center">
       <a href="#" class="text-xl font-medium tracking-tighter uppercase"
@@ -26,12 +26,45 @@
         >
       </div>
       <button class="md:hidden">
-        <iconify-icon
-          icon="solar:hamburger-menu-linear"
+        <Icon
+          name="solar:hamburger-menu-linear"
           class="text-2xl"
           stroke-width="1.5"
-        ></iconify-icon>
+        />
       </button>
     </div>
   </nav>
 </template>
+<script lang="ts" setup>
+import { onMounted, onUnmounted } from "vue";
+
+onMounted(() => {
+  const handleScroll = () => {
+    const nav = document.getElementById("navbar");
+
+    if (window.scrollY > 50) {
+      nav?.classList.add(
+        "bg-[#0A0A0A]/90",
+        "backdrop-blur-md",
+        "py-4",
+        "border-white/5",
+      );
+      nav?.classList.remove("py-6", "border-transparent");
+    } else {
+      nav?.classList.remove(
+        "bg-[#0A0A0A]/90",
+        "backdrop-blur-md",
+        "py-4",
+        "border-white/5",
+      );
+      nav?.classList.add("py-6", "border-transparent");
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  onUnmounted(() => {
+    window.removeEventListener("scroll", handleScroll);
+  });
+});
+</script>
