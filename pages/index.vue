@@ -21,15 +21,15 @@
             dur="10s"
             repeatCount="indefinite"
             values="M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,149.3C672,149,768,203,864,192C960,181,1056,107,1152,90.7C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
-                                M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,213.3C672,224,768,224,864,208C960,192,1056,160,1152,144C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
-                                M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,149.3C672,149,768,203,864,192C960,181,1056,107,1152,90.7C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+                                  M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,213.3C672,224,768,224,864,208C960,192,1056,160,1152,144C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                                  M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,149.3C672,149,768,203,864,192C960,181,1056,107,1152,90.7C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
           ></animate>
         </path>
       </svg>
     </div>
 
     <div class="container mx-auto px-6 text-center relative z-10">
-      <div class="flex justify-center mb-10 fade-up stagger-1">
+      <div class="flex justify-center mb-10 hero-item">
         <div class="soundwave">
           <div class="bar" style="animation-delay: 0.1s"></div>
           <div class="bar" style="animation-delay: 0.3s; height: 60%"></div>
@@ -39,19 +39,17 @@
         </div>
       </div>
       <h1
-        class="text-5xl md:text-8xl font-medium tracking-tight mb-8 fade-up stagger-2"
+        class="text-5xl md:text-8xl font-medium tracking-tight mb-8 hero-item"
       >
         <span class="text-underline-grow">PodLab Studio</span>
       </h1>
       <p
-        class="text-lg md:text-xl font-light text-[#F0EDE6]/70 max-w-2xl mx-auto mb-12 fade-up stagger-3"
+        class="text-lg md:text-xl font-light text-[#F0EDE6]/70 max-w-2xl mx-auto mb-12 hero-item"
       >
         Conversations intimes avec des artistes et entrepreneurs qui façonnent
         le monde de demain.
       </p>
-      <div
-        class="flex flex-col sm:flex-row justify-center gap-6 fade-up stagger-4"
-      >
+      <div class="flex flex-col sm:flex-row justify-center gap-6 hero-item">
         <a
           href="#episodes"
           class="bg-[#D4A853] text-[#0A0A0A] px-10 py-5 rounded-full font-semibold text-sm uppercase tracking-widest hover:bg-white hover:scale-105 transition-all flex items-center justify-center gap-3"
@@ -245,118 +243,364 @@
         >
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Episode Item -->
-        <div
-          class="glass-card group p-6 rounded-3xl hover:bg-white/5 transition-all duration-500 fade-up stagger-1"
-        >
-          <div class="flex justify-between items-start mb-6">
-            <span
-              class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
-              >Épisode #124</span
+      <!-- ── Épisode featured (grande carte) ── -->
+      <div
+        class="episode-card glass-card rounded-3xl overflow-hidden mb-10 fade-up"
+        data-ep="124"
+      >
+        <div class="grid lg:grid-cols-[1fr_420px]">
+          <!-- Iframe YouTube -->
+          <div class="relative bg-black group">
+            <div
+              class="ep-thumb relative cursor-pointer"
+              data-video="dQw4w9WgXcQ"
             >
-            <Icon
-              name="solar:play-circle-linear"
-              class="text-4xl text-white/20 group-hover:text-[#D4A853] group-hover:scale-110 transition-all"
-            />
+              <iframe
+                class="w-full aspect-video object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+                src="https://www.youtube.com/embed/97Pwlm4pNIY"
+                title="Épisode 124"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div
+                  class="play-btn w-20 h-20 rounded-full bg-[#D4A853] flex items-center justify-center shadow-2xl shadow-[#D4A853]/30 group-hover:scale-110 transition-transform duration-300"
+                >
+                  <Icon
+                    name="solar:play-bold"
+                    class="text-3xl text-[#0A0A0A] ml-1"
+                  />
+                </div>
+              </div>
+              <div
+                class="absolute top-4 left-4 bg-[#0A0A0A]/80 backdrop-blur-sm rounded-full px-3 py-1 text-[10px] font-semibold uppercase tracking-widest text-[#D4A853]"
+              >
+                ▶ Regarder
+              </div>
+            </div>
           </div>
-          <h3
-            class="text-xl font-medium mb-2 group-hover:text-[#D4A853] transition-colors"
-          >
-            L'art de la résilience en période de crise
-          </h3>
-          <p class="text-sm font-light text-[#F0EDE6]/50 mb-6">
-            avec Jean-Pierre Dupont — CEO de Lumina
-          </p>
-          <div
-            class="flex items-center justify-between border-t border-white/5 pt-6"
-          >
-            <span class="text-xs font-light">54 min</span>
-            <div class="flex gap-3">
-              <Icon
-                name="solar:medal-star-linear"
-                class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              />
-              <Icon
-                name="solar:share-linear"
-                class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              />
+          <!-- Détails -->
+          <div class="p-8 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-3 mb-5">
+                <span
+                  class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
+                  >Épisode #124</span
+                >
+                <span
+                  class="text-[10px] uppercase tracking-widest text-white/30 font-semibold"
+                  >Nouveau</span
+                >
+              </div>
+              <h3 class="text-2xl font-medium leading-snug mb-3">
+                L'art de la résilience en période de crise
+              </h3>
+              <p class="text-sm text-[#D4A853] font-medium mb-4">
+                avec Jean-Pierre Dupont — CEO de Lumina
+              </p>
+              <p
+                class="text-sm font-light text-[#F0EDE6]/55 leading-relaxed mb-6"
+              >
+                Jean-Pierre revient sur les 18 mois les plus difficiles de sa
+                vie de dirigeant : licenciements, burn-out, et la renaissance
+                inattendue qui a suivi. Une conversation sans filtre sur la
+                vulnérabilité en entreprise.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span
+                  class="text-[10px] uppercase tracking-widest px-3 py-1 rounded-full border border-white/10 text-white/40"
+                  >Résilience</span
+                >
+                <span
+                  class="text-[10px] uppercase tracking-widest px-3 py-1 rounded-full border border-white/10 text-white/40"
+                  >Leadership</span
+                >
+                <span
+                  class="text-[10px] uppercase tracking-widest px-3 py-1 rounded-full border border-white/10 text-white/40"
+                  >Bien-être</span
+                >
+              </div>
+            </div>
+            <div
+              class="border-t border-white/5 pt-6 flex items-center justify-between"
+            >
+              <div class="flex items-center gap-4 text-xs text-[#F0EDE6]/40">
+                <span class="flex items-center gap-1"
+                  ><Icon name="solar:clock-linear"></Icon> 54 min</span
+                >
+                <span class="flex items-center gap-1"
+                  ><Icon name="solar:eye-linear"></Icon> 12 400 vues</span
+                >
+                <span class="flex items-center gap-1"
+                  ><Icon name="solar:calendar-linear"></Icon> 28 fév. 2025</span
+                >
+              </div>
+              <div class="flex gap-3">
+                <button
+                  class="opacity-40 hover:opacity-100 hover:text-[#D4A853] transition-all cursor-pointer"
+                >
+                  <Icon name="solar:share-linear" class="text-lg"></Icon>
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Episode Item -->
+      </div>
+
+      <!-- ── Grille 2 épisodes secondaires ── -->
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Épisode #123 -->
         <div
-          class="glass-card group p-6 rounded-3xl hover:bg-white/5 transition-all duration-500 fade-up stagger-2"
+          class="episode-card glass-card rounded-3xl overflow-hidden fade-up stagger-1"
+          data-ep="123"
         >
-          <div class="flex justify-between items-start mb-6">
-            <span
-              class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
-              >Épisode #123</span
-            >
-            <Icon
-              name="solar:play-circle-linear"
-              class="text-4xl text-white/20 group-hover:text-[#D4A853] group-hover:scale-110 transition-all"
-            />
-          </div>
-          <h3
-            class="text-xl font-medium mb-2 group-hover:text-[#D4A853] transition-colors"
-          >
-            Pourquoi le design sauvera le monde
-          </h3>
-          <p class="text-sm font-light text-[#F0EDE6]/50 mb-6">
-            avec Sophie Renoir — Designer Produit
-          </p>
           <div
-            class="flex items-center justify-between border-t border-white/5 pt-6"
+            class="ep-thumb relative cursor-pointer group"
+            data-video="ScMzIvxBSi4"
           >
-            <span class="text-xs font-light">42 min</span>
-            <div class="flex gap-3">
-              <Icon
-                name="solar:medal-star-linear"
-                class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              />
-              <Icon
-                name="solar:share-linear"
-                class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              />
+            <img
+              src="https://img.youtube.com/vi/ScMzIvxBSi4/hqdefault.jpg"
+              onerror="this.src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80'"
+              alt="Épisode 123"
+              class="w-full aspect-video object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-500"
+            />
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div
+                class="play-btn w-14 h-14 rounded-full bg-[#D4A853] flex items-center justify-center shadow-xl shadow-[#D4A853]/30 group-hover:scale-110 transition-transform duration-300"
+              >
+                <Icon
+                  name="solar:play-bold"
+                  class="text-xl text-[#0A0A0A] ml-0.5"
+                ></Icon>
+              </div>
+            </div>
+          </div>
+          <div class="ep-iframe hidden">
+            <iframe
+              class="w-full aspect-video"
+              frameborder="0"
+              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            >
+            </iframe>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-3 mb-3">
+              <span
+                class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
+                >Épisode #123</span
+              >
+            </div>
+            <h3 class="text-lg font-medium mb-2">
+              Pourquoi le design sauvera le monde
+            </h3>
+            <p class="text-sm text-[#D4A853]/80 mb-3">
+              avec Sophie Renoir — Designer Produit
+            </p>
+            <p
+              class="text-xs font-light text-[#F0EDE6]/45 leading-relaxed mb-5"
+            >
+              Sophie explore comment le design centré sur l'humain transforme
+              les industries et façonne des expériences qui changent des vies à
+              grande échelle.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-5">
+              <span
+                class="text-[10px] uppercase tracking-widest px-2 py-1 rounded-full border border-white/10 text-white/35"
+                >Design</span
+              >
+              <span
+                class="text-[10px] uppercase tracking-widest px-2 py-1 rounded-full border border-white/10 text-white/35"
+                >Innovation</span
+              >
+            </div>
+            <div
+              class="border-t border-white/5 pt-5 flex items-center gap-4 text-xs text-[#F0EDE6]/35"
+            >
+              <span class="flex items-center gap-1"
+                ><Icon name="solar:clock-linear"></Icon> 42 min</span
+              >
+              <span class="flex items-center gap-1"
+                ><Icon name="solar:eye-linear"></Icon> 8 700 vues</span
+              >
+              <span class="flex items-center gap-1"
+                ><Icon name="solar:calendar-linear"></Icon> 14 fév. 2025</span
+              >
             </div>
           </div>
         </div>
-        <!-- Episode Item -->
+
+        <!-- Épisode #122 -->
         <div
-          class="glass-card group p-6 rounded-3xl hover:bg-white/5 transition-all duration-500 fade-up stagger-3"
+          class="episode-card glass-card rounded-3xl overflow-hidden fade-up stagger-2"
+          data-ep="122"
         >
-          <div class="flex justify-between items-start mb-6">
-            <span
-              class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
-              >Épisode #122</span
-            >
-            <Icon
-              name="solar:play-circle-linear"
-              class="text-4xl text-white/20 group-hover:text-[#D4A853] group-hover:scale-110 transition-all"
-            />
-          </div>
-          <h3
-            class="text-xl font-medium mb-2 group-hover:text-[#D4A853] transition-colors"
-          >
-            La solitude du fondateur
-          </h3>
-          <p class="text-sm font-light text-[#F0EDE6]/50 mb-6">
-            avec Karim Benzé — Serial Entrepreneur
-          </p>
           <div
-            class="flex items-center justify-between border-t border-white/5 pt-6"
+            class="ep-thumb relative cursor-pointer group"
+            data-video="3JZ_D3ELwOQ"
           >
-            <span class="text-xs font-light">68 min</span>
-            <div class="flex gap-3">
-              <Icon
-                name="solar:medal-star-linear"
-                class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              />
-              <Icon
-                name="solar:share-linear"
-                class="text-lg opacity-40 hover:opacity-100 cursor-pointer"
-              />
+            <img
+              src="https://img.youtube.com/vi/3JZ_D3ELwOQ/hqdefault.jpg"
+              onerror="this.src='https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80'"
+              alt="Épisode 122"
+              class="w-full aspect-video object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-500"
+            />
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div
+                class="play-btn w-14 h-14 rounded-full bg-[#D4A853] flex items-center justify-center shadow-xl shadow-[#D4A853]/30 group-hover:scale-110 transition-transform duration-300"
+              >
+                <Icon
+                  name="solar:play-bold"
+                  class="text-xl text-[#0A0A0A] ml-0.5"
+                ></Icon>
+              </div>
+            </div>
+          </div>
+          <div class="ep-iframe hidden">
+            <iframe
+              class="w-full aspect-video"
+              frameborder="0"
+              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            >
+            </iframe>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-3 mb-3">
+              <span
+                class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
+                >Épisode #122</span
+              >
+            </div>
+            <h3 class="text-lg font-medium mb-2">La solitude du fondateur</h3>
+            <p class="text-sm text-[#D4A853]/80 mb-3">
+              avec Karim Benzé — Serial Entrepreneur
+            </p>
+            <p
+              class="text-xs font-light text-[#F0EDE6]/45 leading-relaxed mb-5"
+            >
+              Karim brise le mythe du fondateur invulnérable et parle
+              ouvertement de l'isolement, de la thérapie, et de ce qu'il a
+              appris en construisant trois entreprises en dix ans.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-5">
+              <span
+                class="text-[10px] uppercase tracking-widest px-2 py-1 rounded-full border border-white/10 text-white/35"
+                >Entrepreneuriat</span
+              >
+              <span
+                class="text-[10px] uppercase tracking-widest px-2 py-1 rounded-full border border-white/10 text-white/35"
+                >Mental</span
+              >
+            </div>
+            <div
+              class="border-t border-white/5 pt-5 flex items-center gap-4 text-xs text-[#F0EDE6]/35"
+            >
+              <span class="flex items-center gap-1"
+                ><Icon name="solar:clock-linear"></Icon> 68 min</span
+              >
+              <span class="flex items-center gap-1"
+                ><Icon name="solar:eye-linear"></Icon> 21 300 vues</span
+              >
+              <span class="flex items-center gap-1"
+                ><Icon name="solar:calendar-linear"></Icon> 1 fév. 2025</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--localisation-->
+  <section id="localisation" class="py-32 bg-[#0A0A0A]">
+    <div class="container mx-auto px-6">
+      <div class="mb-16 fade-up">
+        <p
+          class="text-xs font-semibold tracking-widest uppercase text-[#D4A853] mb-3"
+        >
+          Nos Studios
+        </p>
+        <h2 class="text-3xl md:text-5xl font-medium tracking-tight mb-3">
+          Où nous enregistrons
+        </h2>
+        <p class="text-[#F0EDE6]/50 font-light max-w-xl">
+          Chaque épisode naît dans un lieu chargé d'histoire. Retrouvez nos
+          studios à travers le monde.
+        </p>
+      </div>
+
+      <!-- Layout : carte gauche, liste droite -->
+      <div class="grid lg:grid-cols-[1fr_380px] gap-8 items-stretch">
+        <!-- Carte OpenStreetMap embed -->
+        <div
+          class="relative rounded-3xl overflow-hidden fade-up"
+          style="min-height: 480px"
+        >
+          <iframe
+            id="map-frame"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=2.2685,48.8375,2.4105,48.9005&layer=mapnik&marker=48.8566,2.3522"
+            class="absolute inset-0 w-full h-full border-0"
+            loading="lazy"
+            title="Localisation PodLab Studio Paris"
+          >
+          </iframe>
+          <!-- Overlay doré en bas -->
+          <div
+            class="absolute bottom-0 left-0 right-0 h-20 pointer-events-none"
+            style="
+              background: linear-gradient(
+                to top,
+                rgba(10, 10, 10, 0.8) 0%,
+                transparent 100%
+              );
+            "
+          ></div>
+          <!-- Badge -->
+          <div
+            class="absolute top-4 left-4 glass-card rounded-2xl px-4 py-3 flex items-center gap-3 pointer-events-none"
+          >
+            <div class="w-2 h-2 rounded-full bg-[#D4A853] animate-pulse"></div>
+            <span
+              class="text-xs font-semibold uppercase tracking-widest text-[#D4A853]"
+              >Studio actif</span
+            >
+          </div>
+        </div>
+
+        <!-- Liste des studios avec bouton switcher -->
+        <div class="flex flex-col gap-4 fade-up stagger-1">
+          <div
+            class="studio-item glass-card rounded-2xl p-5 cursor-pointer transition-all duration-300 hover:border-[#D4A853]/40 active-studio"
+            data-bbox="2.2685,48.8375,2.4105,48.9005"
+            data-marker="48.8566,2.3522"
+            data-zoom="13"
+          >
+            <div class="flex items-start gap-4">
+              <div
+                class="w-10 h-10 rounded-xl bg-[#D4A853]/10 flex items-center justify-center shrink-0 mt-0.5"
+              >
+                <Icon
+                  name="solar:microphone-large-bold"
+                  class="text-[#D4A853] text-xl"
+                ></Icon>
+              </div>
+              <div class="flex-1">
+                <div class="flex items-center justify-between mb-1">
+                  <h4 class="font-medium text-sm">Studio Paris — Marais</h4>
+                  <span
+                    class="text-[9px] uppercase tracking-widest px-2 py-0.5 rounded-full bg-[#D4A853]/10 text-[#D4A853] font-semibold"
+                    >Principal</span
+                  >
+                </div>
+                <p class="text-xs text-[#F0EDE6]/45 mb-2">
+                  12 Rue de Bretagne, 75003 Paris
+                </p>
+                <p class="text-xs text-[#F0EDE6]/35">
+                  Épisodes #100 → #124 • Capacité 6 pers.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -491,6 +735,20 @@
     </div>
   </section>
 </template>
+<script setup lang="ts">
+import { onMounted } from "vue";
+import gsap from "gsap";
+
+onMounted(() => {
+  gsap.from(".hero-item", {
+    y: 60,
+    opacity: 0,
+    duration: 1,
+    ease: "power3.out",
+    stagger: 0.25,
+  });
+});
+</script>
 <style scoped lang="scss">
 .soundwave {
   display: flex;

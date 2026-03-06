@@ -37,27 +37,33 @@
 </template>
 <script lang="ts" setup>
 import { onMounted, onUnmounted } from "vue";
+import gsap from "gsap";
 
 onMounted(() => {
+  const nav = document.getElementById("navbar");
   const handleScroll = () => {
-    const nav = document.getElementById("navbar");
+    if (!nav) return;
 
     if (window.scrollY > 50) {
-      nav?.classList.add(
-        "bg-[#0A0A0A]/90",
-        "backdrop-blur-md",
-        "py-4",
-        "border-white/5",
-      );
-      nav?.classList.remove("py-6", "border-transparent");
+      gsap.to(nav, {
+        duration: 0.1,
+        paddingTop: "1rem", // py-4
+        paddingBottom: "1rem",
+        borderBottomColor: "rgba(255,255,255,0.05)", // border-white/5
+        backgroundColor: "rgba(10,10,10,0.9)", // bg-[#0A0A0A]/90
+        backdropFilter: "blur(10px)", // blur effect
+        ease: "power2.out",
+      });
     } else {
-      nav?.classList.remove(
-        "bg-[#0A0A0A]/90",
-        "backdrop-blur-md",
-        "py-4",
-        "border-white/5",
-      );
-      nav?.classList.add("py-6", "border-transparent");
+      gsap.to(nav, {
+        duration: 0.1,
+        paddingTop: "1.5rem", // py-6
+        paddingBottom: "1.5rem",
+        borderBottomColor: "transparent",
+        backgroundColor: "#0A0A0A",
+        backdropFilter: "blur(0px)",
+        ease: "power2.out",
+      });
     }
   };
 
