@@ -534,18 +534,19 @@
       <!-- Layout : carte gauche, liste droite -->
       <div class="grid lg:grid-cols-[1fr_380px] gap-8 items-stretch">
         <!-- Carte OpenStreetMap embed -->
-        <div
-          class="relative rounded-3xl overflow-hidden fade-up"
-          style="min-height: 480px"
-        >
-          <iframe
-            id="map-frame"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=2.2685,48.8375,2.4105,48.9005&layer=mapnik&marker=48.8566,2.3522"
-            class="absolute inset-0 w-full h-full border-0"
-            loading="lazy"
-            title="Localisation PodLab Studio Paris"
-          >
-          </iframe>
+        <div class="relative rounded-3xl overflow-hidden fade-up min-h-[480px]">
+          <div class="relative w-full h-full">
+            <iframe
+              id="map-frame"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3965.2765151250596!2d2.3962029999999994!3d6.358243999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMjEnMjkuNyJOIDLCsDIzJzQ2LjMiRQ!5e0!3m2!1sfr!2sbj!4v1773077952781!5m2!1sfr!2sbj"
+              class="absolute inset-0 w-full h-full border-0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Localisation PodLab Studio"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
           <!-- Overlay doré en bas -->
           <div
             class="absolute bottom-0 left-0 right-0 h-20 pointer-events-none"
