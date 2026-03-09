@@ -615,7 +615,13 @@
       <div class="grid grid-cols-2 md:grid-cols-5 gap-10 text-center">
         <div class="fade-up stagger-1">
           <Icon name="solar:eye-linear" class="text-2xl text-[#D4A853] mb-4" />
-          <h4 class="text-3xl md:text-4xl font-medium mb-1">0</h4>
+          <h4
+            class="text-3xl md:text-4xl font-medium mb-1 stat-number"
+            data-target="1.2"
+            data-suffix="M"
+          >
+            0
+          </h4>
           <p
             class="text-[10px] font-semibold uppercase tracking-widest text-[#F0EDE6]/40"
           >
@@ -627,7 +633,12 @@
             name="solar:microphone-large-linear"
             class="text-2xl text-[#D4A853] mb-4"
           />
-          <h4 class="text-3xl md:text-4xl font-medium mb-1">0</h4>
+          <h4
+            class="text-3xl md:text-4xl font-medium mb-1 stat-number"
+            data-target="124"
+          >
+            0
+          </h4>
           <p
             class="text-[10px] font-semibold uppercase tracking-widest text-[#F0EDE6]/40"
           >
@@ -636,7 +647,13 @@
         </div>
         <div class="fade-up stagger-3">
           <Icon name="solar:user-linear" class="text-2xl text-[#D4A853] mb-4" />
-          <h4 class="text-3xl md:text-4xl font-medium mb-1">0</h4>
+          <h4
+            class="text-3xl md:text-4xl font-medium mb-1 stat-number"
+            data-target="85"
+            data-suffix="K"
+          >
+            0
+          </h4>
           <p
             class="text-[10px] font-semibold uppercase tracking-widest text-[#F0EDE6]/40"
           >
@@ -648,7 +665,13 @@
             name="solar:music-note-linear"
             class="text-2xl text-[#D4A853] mb-4"
           />
-          <h4 class="text-3xl md:text-4xl font-medium mb-1">0</h4>
+          <h4
+            class="text-3xl md:text-4xl font-medium mb-1 stat-number"
+            data-target="42"
+            data-suffix="K"
+          >
+            0
+          </h4>
           <p
             class="text-[10px] font-semibold uppercase tracking-widest text-[#F0EDE6]/40"
           >
@@ -660,7 +683,12 @@
             name="solar:earth-linear"
             class="text-2xl text-[#D4A853] mb-4"
           />
-          <h4 class="text-3xl md:text-4xl font-medium mb-1">0</h4>
+          <h4
+            class="text-3xl md:text-4xl font-medium mb-1 stat-number"
+            data-target="18"
+          >
+            0
+          </h4>
           <p
             class="text-[10px] font-semibold uppercase tracking-widest text-[#F0EDE6]/40"
           >
@@ -684,19 +712,19 @@
       >
         <Icon
           name="simple-icons:spotify"
-          class="text-4xl hover:text-[#1DB954] hover:opacity-100 transition-all cursor-pointer"
+          class="text-4xl hover:text-[#1DB954] hover:opacity-100 transition-all cursor-pointer fade-up stagger-1"
         />
         <Icon
           name="simple-icons:applepodcasts"
-          class="text-4xl hover:text-[#9933CC] hover:opacity-100 transition-all cursor-pointer"
+          class="text-4xl hover:text-[#9933CC] hover:opacity-100 transition-all cursor-pointer fade-up stagger-2"
         />
         <Icon
           name="simple-icons:youtube"
-          class="text-4xl hover:text-[#FF0000] hover:opacity-100 transition-all cursor-pointer"
+          class="text-4xl hover:text-[#FF0000] hover:opacity-100 transition-all cursor-pointer fade-up stagger-3"
         />
         <Icon
           name="simple-icons:deezer"
-          class="text-4xl hover:text-[#EF5466] hover:opacity-100 transition-all cursor-pointer"
+          class="text-4xl hover:text-[#EF5466] hover:opacity-100 transition-all cursor-pointer fade-up stagger-4"
         />
       </div>
     </div>
@@ -711,7 +739,7 @@
         <div
           class="absolute top-0 right-0 -mt-20 -mr-20 w-64 h-64 bg-[#D4A853]/10 blur-[100px] rounded-full"
         ></div>
-        <div class="relative z-10 text-center">
+        <div class="relative z-10 text-center fade-up">
           <h2 class="text-3xl md:text-5xl font-medium mb-6">
             Ne manquez aucun épisode
           </h2>
@@ -739,14 +767,77 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 onMounted(() => {
-  gsap.from(".hero-item", {
-    y: 60,
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Animation d'entrée pour le Hero
+  const heroTl = gsap.timeline();
+
+  heroTl.from(".hero-item", {
+    y: 50,
     opacity: 0,
     duration: 1,
     ease: "power3.out",
-    stagger: 0.25,
+    stagger: 0.2,
+  });
+
+  // Déclenchement de l'animation de l'underline
+  heroTl.to(
+    ".text-underline-grow",
+    {
+      onStart: () => {
+        document
+          .querySelector(".text-underline-grow")
+          ?.parentElement?.classList.add("active-reveal");
+      },
+    },
+    "-=0.4",
+  );
+
+  // Animation progressive des sections au scroll
+  const fadeUps = document.querySelectorAll(".fade-up");
+  fadeUps.forEach((el) => {
+    // Calcul du délai basé sur les classes stagger-X
+    const staggerMatch = el.className.match(/stagger-(\d+)/);
+    const staggerDelay = staggerMatch ? parseInt(staggerMatch[1]) * 0.15 : 0;
+
+    gsap.from(el, {
+      scrollTrigger: {
+        trigger: el,
+        start: "top 92%",
+        once: true,
+      },
+      y: 40,
+      opacity: 0,
+      duration: 1,
+      delay: staggerDelay,
+      ease: "power3.out",
+    });
+  });
+
+  // Animation CountUp pour les stats
+  const stats = document.querySelectorAll(".stat-number");
+  stats.forEach((stat) => {
+    const target = parseFloat(stat.getAttribute("data-target") || "0");
+    const suffix = stat.getAttribute("data-suffix") || "";
+    const decimals = target % 1 !== 0 ? 1 : 0;
+
+    const obj = { value: 0 };
+    gsap.to(obj, {
+      value: target,
+      duration: 2.5,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: stat,
+        start: "top 90%",
+        once: true,
+      },
+      onUpdate: () => {
+        (stat as HTMLElement).innerText = obj.value.toFixed(decimals) + suffix;
+      },
+    });
   });
 });
 </script>
