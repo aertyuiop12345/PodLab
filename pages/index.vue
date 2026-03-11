@@ -142,7 +142,7 @@
         class="relative group cursor-pointer overflow-hidden rounded-3xl fade-up stagger-1"
       >
         <img
-          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+          src="/fanicko.jpg"
           alt="Guest"
           class="w-full aspect-4/5 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
         />
@@ -155,13 +155,14 @@
           <p
             class="text-[#D4A853] text-xs font-semibold uppercase tracking-widest mb-2"
           >
-            Entrepreneur Tech
+            Artiste Chanteur
           </p>
-          <h3 class="text-2xl font-medium mb-4">Diallo Koné</h3>
+          <h3 class="text-2xl font-medium mb-4">Fanicko de Jésus</h3>
           <p
             class="text-sm font-light italic text-white/0 group-hover:text-white/80 transition-all duration-500 max-h-0 group-hover:max-h-20 overflow-hidden"
           >
-            "La technologie n'est qu'un outil, le récit est ce qui reste."
+            Fanicko révèle enfin l'histoire derrière son nom d'artiste et tout a
+            commencé avec son grand frère.."
           </p>
         </div>
       </div>
@@ -170,7 +171,7 @@
         class="relative group cursor-pointer overflow-hidden rounded-3xl fade-up stagger-2"
       >
         <img
-          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+          src="/shado.jpg"
           alt="Guest"
           class="w-full aspect-4/5 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
         />
@@ -185,7 +186,7 @@
           >
             Artiste Musicienne
           </p>
-          <h3 class="text-2xl font-medium mb-4">Aminata Diarra</h3>
+          <h3 class="text-2xl font-medium mb-4">Shado Chris</h3>
           <p
             class="text-sm font-light italic text-white/0 group-hover:text-white/80 transition-all duration-500 max-h-0 group-hover:max-h-20 overflow-hidden"
           >
@@ -198,7 +199,7 @@
         class="relative group cursor-pointer overflow-hidden rounded-3xl fade-up stagger-3"
       >
         <img
-          src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+          src="/first.jpg"
           alt="Guest"
           class="w-full aspect-4/5 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
         />
@@ -211,9 +212,9 @@
           <p
             class="text-[#D4A853] text-xs font-semibold uppercase tracking-widest mb-2"
           >
-            Architecte
+            Artiste Chanteur
           </p>
-          <h3 class="text-2xl font-medium mb-4">Marc Lefebvre</h3>
+          <h3 class="text-2xl font-medium mb-4">First King</h3>
           <p
             class="text-sm font-light italic text-white/0 group-hover:text-white/80 transition-all duration-500 max-h-0 group-hover:max-h-20 overflow-hidden"
           >
@@ -225,7 +226,7 @@
   </section>
 
   <!-- Latest Episodes -->
-  <section id="episodes" class="py-32 bg-[#0C0C0C]">
+  <section id="episodes" class="py-10 bg-[#0C0C0C]">
     <div class="container mx-auto px-6">
       <div class="flex justify-between items-end mb-16">
         <div class="fade-up">
@@ -237,7 +238,8 @@
           </p>
         </div>
         <a
-          href="#"
+          href="https://www.youtube.com/@PodlabStudio"
+          target="_blank"
           class="hidden md:block text-xs font-semibold tracking-widest uppercase border-b border-[#D4A853] pb-1 hover:text-[#D4A853] transition-all"
           >Voir tout</a
         >
@@ -263,21 +265,6 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-              <div class="absolute inset-0 flex items-center justify-center">
-                <div
-                  class="play-btn w-20 h-20 rounded-full bg-[#D4A853] flex items-center justify-center shadow-2xl shadow-[#D4A853]/30 group-hover:scale-110 transition-transform duration-300"
-                >
-                  <Icon
-                    name="solar:play-bold"
-                    class="text-3xl text-[#0A0A0A] ml-1"
-                  />
-                </div>
-              </div>
-              <div
-                class="absolute top-4 left-4 bg-[#0A0A0A]/80 backdrop-blur-sm rounded-full px-3 py-1 text-[10px] font-semibold uppercase tracking-widest text-[#D4A853]"
-              >
-                ▶ Regarder
-              </div>
             </div>
           </div>
           <!-- Détails -->
@@ -359,12 +346,16 @@
             class="ep-thumb relative cursor-pointer group"
             data-video="ScMzIvxBSi4"
           >
-            <img
-              src="https://img.youtube.com/vi/ScMzIvxBSi4/hqdefault.jpg"
-              onerror="this.src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80'"
-              alt="Épisode 123"
-              class="w-full aspect-video object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-500"
-            />
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/n391rT7I1GA?si=-tf9abk54e95Mn11"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
             <div class="absolute inset-0 flex items-center justify-center">
               <div
                 class="play-btn w-14 h-14 rounded-full bg-[#D4A853] flex items-center justify-center shadow-xl shadow-[#D4A853]/30 group-hover:scale-110 transition-transform duration-300"
@@ -376,15 +367,7 @@
               </div>
             </div>
           </div>
-          <div class="ep-iframe hidden">
-            <iframe
-              class="w-full aspect-video"
-              frameborder="0"
-              allowfullscreen
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            >
-            </iframe>
-          </div>
+
           <div class="p-6">
             <div class="flex items-center gap-3 mb-3">
               <span
@@ -440,12 +423,16 @@
             class="ep-thumb relative cursor-pointer group"
             data-video="3JZ_D3ELwOQ"
           >
-            <img
-              src="https://img.youtube.com/vi/3JZ_D3ELwOQ/hqdefault.jpg"
-              onerror="this.src='https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80'"
-              alt="Épisode 122"
-              class="w-full aspect-video object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-500"
-            />
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/u5p5v-3XhNc?si=L0tYkbtOjlxDUp7u"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
             <div class="absolute inset-0 flex items-center justify-center">
               <div
                 class="play-btn w-14 h-14 rounded-full bg-[#D4A853] flex items-center justify-center shadow-xl shadow-[#D4A853]/30 group-hover:scale-110 transition-transform duration-300"
@@ -456,15 +443,6 @@
                 ></Icon>
               </div>
             </div>
-          </div>
-          <div class="ep-iframe hidden">
-            <iframe
-              class="w-full aspect-video"
-              frameborder="0"
-              allowfullscreen
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            >
-            </iframe>
           </div>
           <div class="p-6">
             <div class="flex items-center gap-3 mb-3">
@@ -547,17 +525,7 @@
             >
             </iframe>
           </div>
-          <!-- Overlay doré en bas -->
-          <div
-            class="absolute bottom-0 left-0 right-0 h-20 pointer-events-none"
-            style="
-              background: linear-gradient(
-                to top,
-                rgba(10, 10, 10, 0.8) 0%,
-                transparent 100%
-              );
-            "
-          ></div>
+
           <!-- Badge -->
           <div
             class="absolute top-4 left-4 glass-card rounded-2xl px-4 py-3 flex items-center gap-3 pointer-events-none"
@@ -578,7 +546,9 @@
             data-marker="48.8566,2.3522"
             data-zoom="13"
           >
-            <div class="flex items-start gap-4">
+            <div
+              class="flex items-start gap-4 border border-[#D4A853]/40 rounded-2xl p-3"
+            >
               <div
                 class="w-10 h-10 rounded-xl bg-[#D4A853]/10 flex items-center justify-center shrink-0 mt-0.5"
               >
@@ -589,7 +559,7 @@
               </div>
               <div class="flex-1">
                 <div class="flex items-center justify-between mb-1">
-                  <h4 class="font-medium text-sm">Studio Paris — Marais</h4>
+                  <h4 class="font-medium text-sm">Studio Bénin — Cotonou</h4>
                   <span
                     class="text-[9px] uppercase tracking-widest px-2 py-0.5 rounded-full bg-[#D4A853]/10 text-[#D4A853] font-semibold"
                     >Principal</span
@@ -710,22 +680,34 @@
       <div
         class="flex flex-wrap justify-center items-center gap-10 md:gap-20 opacity-60"
       >
-        <Icon
-          name="simple-icons:spotify"
-          class="text-4xl hover:text-[#1DB954] hover:opacity-100 transition-all cursor-pointer fade-up stagger-1"
-        />
-        <Icon
-          name="simple-icons:applepodcasts"
-          class="text-4xl hover:text-[#9933CC] hover:opacity-100 transition-all cursor-pointer fade-up stagger-2"
-        />
-        <Icon
-          name="simple-icons:youtube"
-          class="text-4xl hover:text-[#FF0000] hover:opacity-100 transition-all cursor-pointer fade-up stagger-3"
-        />
-        <Icon
-          name="simple-icons:deezer"
-          class="text-4xl hover:text-[#EF5466] hover:opacity-100 transition-all cursor-pointer fade-up stagger-4"
-        />
+        <NuxtLink class="fade-up stagger-1" target="_blank">
+          <Icon
+            name="simple-icons:spotify"
+            class="text-4xl hover:text-[#1DB954] hover:opacity-100 transition-all cursor-pointer"
+          />
+        </NuxtLink>
+        <NuxtLink>
+          <Icon
+            name="simple-icons:applepodcasts"
+            class="text-4xl hover:text-[#9933CC] hover:opacity-100 transition-all cursor-pointer fade-up stagger-2"
+          />
+        </NuxtLink>
+        <NuxtLink
+          to="https://www.youtube.com/@PodlabStudio"
+          class="fade-up stagger-3"
+          target="_blank"
+        >
+          <Icon
+            name="simple-icons:youtube"
+            class="text-4xl hover:text-[#FF0000] hover:opacity-100 transition-all cursor-pointer"
+          />
+        </NuxtLink>
+        <NuxtLink>
+          <Icon
+            name="simple-icons:deezer"
+            class="text-4xl hover:text-[#EF5466] hover:opacity-100 transition-all cursor-pointer fade-up stagger-4"
+          />
+        </NuxtLink>
       </div>
     </div>
   </section>
