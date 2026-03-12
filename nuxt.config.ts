@@ -21,8 +21,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title:
-        "PodLab Studio | Conversations avec les Artistes et Entrepreneurs de Demain",
+      title: "PodLab Studio | Création de Contenu Professionnel",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
