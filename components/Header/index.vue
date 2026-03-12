@@ -25,13 +25,6 @@
           >S'abonner</a
         >
       </div>
-      <button class="md:hidden">
-        <Icon
-          name="solar:hamburger-menu-linear"
-          class="text-2xl"
-          stroke-width="1.5"
-        />
-      </button>
     </div>
   </nav>
 </template>

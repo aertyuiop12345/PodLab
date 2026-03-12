@@ -7,7 +7,7 @@
       <div class="gradient-mesh absolute inset-0"></div>
       <!-- Animated SVG Waveform Background -->
       <svg
-        class="absolute bottom-0 w-full h-64 opacity-10"
+        class="absolute bottom-0 w-full h-64 opacity-20"
         viewBox="0 0 1440 320"
         preserveAspectRatio="none"
       >
@@ -26,6 +26,10 @@
           ></animate>
         </path>
       </svg>
+      <!-- Fade to bottom -->
+      <div
+        class="absolute bottom-0 left-0 right-0 h-48 bg-linear-to-b from-transparent to-[#0A0A0A] pointer-events-none z-10"
+      ></div>
     </div>
 
     <div class="container mx-auto px-6 text-center relative z-10">
@@ -85,7 +89,7 @@
             class="glass-card p-8 rounded-2xl border-l-4 border-l-[#D4A853]/50 fade-up stagger-1 group hover:border-l-[#D4A853] transition-all"
           >
             <Icon
-              name="solar:palette-linear"
+              name="solar:microphone-3-linear"
               class="text-3xl text-[#D4A853] mb-4"
             />
             <h3 class="text-xl font-medium mb-2">Artistes invités</h3>
@@ -111,7 +115,7 @@
             class="glass-card p-8 rounded-2xl border-l-4 border-l-white/10 fade-up stagger-3 group hover:border-l-[#D4A853] transition-all"
           >
             <Icon
-              name="solar:heart-linear"
+              name="solar:chart-2-linear"
               class="text-3xl text-[#D4A853] mb-4"
             />
             <h3 class="text-xl font-medium mb-2">Business &amp; Vie</h3>
@@ -126,7 +130,7 @@
   </section>
 
   <!-- Guest Personalities -->
-  <section id="invites" class="py-32 bg-[#0A0A0A] overflow-hidden">
+  <section id="invites" class="pb-32 pt-14 bg-[#0A0A0A] overflow-hidden">
     <div class="container mx-auto px-6 mb-16">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight mb-4 fade-up">
         Nos Derniers Invités
@@ -144,7 +148,7 @@
         <img
           src="/fanicko.jpg"
           alt="Guest"
-          class="w-full aspect-4/5 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+          class="w-full aspect-4/5 object-cover grayscale-0 group-hover:grayscale group-hover:scale-105 transition-all duration-700"
         />
         <div
           class="absolute inset-0 bg-linear-to-t from-[#0A0A0A] via-transparent to-transparent opacity-90"
@@ -173,7 +177,7 @@
         <img
           src="/shado.jpg"
           alt="Guest"
-          class="w-full aspect-4/5 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+          class="w-full aspect-4/5 object-cover grayscale-0 group-hover:grayscale group-hover:scale-105 transition-all duration-700"
         />
         <div
           class="absolute inset-0 bg-linear-to-t from-[#0A0A0A] via-transparent to-transparent opacity-90"
@@ -201,7 +205,7 @@
         <img
           src="/first.jpg"
           alt="Guest"
-          class="w-full aspect-4/5 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+          class="w-full aspect-4/5 object-cover grayscale-0 group-hover:grayscale group-hover:scale-105 transition-all duration-700"
         />
         <div
           class="absolute inset-0 bg-linear-to-t from-[#0A0A0A] via-transparent to-transparent opacity-90"
@@ -247,7 +251,7 @@
 
       <!-- ── Épisode featured (grande carte) ── -->
       <div
-        class="episode-card glass-card rounded-3xl overflow-hidden mb-10 fade-up"
+        class="episode-card glass-card rounded-2xl overflow-hidden mb-10 fade-up"
         data-ep="124"
       >
         <div class="grid lg:grid-cols-[1fr_420px]">
@@ -268,7 +272,7 @@
             </div>
           </div>
           <!-- Détails -->
-          <div class="p-8 flex flex-col justify-between">
+          <div class="p-0 md:p-8 flex flex-col justify-between">
             <div>
               <div class="flex items-center gap-3 mb-5">
                 <span
@@ -323,23 +327,16 @@
                   2026</span
                 >
               </div>
-              <div class="flex gap-3">
-                <button
-                  class="opacity-40 hover:opacity-100 hover:text-[#D4A853] transition-all cursor-pointer"
-                >
-                  <Icon name="solar:share-linear" class="text-lg"></Icon>
-                </button>
-              </div>
             </div>
           </div>
         </div>
       </div>
 
       <!-- ── Grille 2 épisodes secondaires ── -->
-      <div class="grid md:grid-cols-2 gap-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <!-- Épisode #123 -->
         <div
-          class="episode-card glass-card rounded-3xl overflow-hidden fade-up stagger-1"
+          class="episode-card glass-card rounded-2xl overflow-hidden fade-up stagger-1"
           data-ep="123"
         >
           <div
@@ -347,8 +344,7 @@
             data-video="ScMzIvxBSi4"
           >
             <iframe
-              width="560"
-              height="315"
+              class="w-full aspect-video object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
               src="https://www.youtube.com/embed/n391rT7I1GA?si=-tf9abk54e95Mn11"
               title="YouTube video player"
               frameborder="0"
@@ -358,7 +354,7 @@
             ></iframe>
           </div>
 
-          <div class="p-6">
+          <div class="p-0 md:p-6">
             <div class="flex items-center gap-3 mb-3">
               <span
                 class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
@@ -407,7 +403,7 @@
 
         <!-- Épisode #122 -->
         <div
-          class="episode-card glass-card rounded-3xl overflow-hidden fade-up stagger-2"
+          class="episode-card glass-card rounded-2xl overflow-hidden fade-up stagger-2"
           data-ep="122"
         >
           <div
@@ -415,8 +411,7 @@
             data-video="3JZ_D3ELwOQ"
           >
             <iframe
-              width="560"
-              height="315"
+              class="w-full aspect-video object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
               src="https://www.youtube.com/embed/u5p5v-3XhNc?si=L0tYkbtOjlxDUp7u"
               title="YouTube video player"
               frameborder="0"
@@ -425,7 +420,7 @@
               allowfullscreen
             ></iframe>
           </div>
-          <div class="p-6">
+          <div class="p-0 md:p-6">
             <div class="flex items-center gap-3 mb-3">
               <span
                 class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
@@ -490,7 +485,9 @@
       </div>
 
       <!-- Layout : carte gauche, liste droite -->
-      <div class="grid lg:grid-cols-[1fr_380px] gap-8 items-stretch">
+      <div
+        class="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-8 items-stretch"
+      >
         <!-- Carte OpenStreetMap embed -->
         <div class="relative rounded-3xl overflow-hidden fade-up min-h-[480px]">
           <div class="relative w-full h-full">
@@ -521,7 +518,7 @@
         <!-- Liste des studios avec bouton switcher -->
         <div class="flex flex-col gap-4 fade-up stagger-1">
           <div
-            class="studio-item glass-card rounded-2xl p-5 cursor-pointer transition-all duration-300 hover:border-[#D4A853]/40 active-studio"
+            class="studio-item glass-card rounded-2xl cursor-pointer transition-all duration-300 hover:border-[#D4A853]/40 active-studio"
             data-bbox="2.2685,48.8375,2.4105,48.9005"
             data-marker="48.8566,2.3522"
             data-zoom="13"
@@ -561,7 +558,7 @@
   </section>
 
   <!-- Statistics Section -->
-  <section id="stats" class="py-24 relative overflow-hidden bg-[#0A0A0A]">
+  <section id="stats" class="py-20 relative overflow-hidden bg-[#0A0A0A]">
     <div class="container mx-auto px-6 relative z-10">
       <div class="grid grid-cols-2 md:grid-cols-5 gap-10 text-center">
         <div class="fade-up stagger-1">

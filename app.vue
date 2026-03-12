@@ -1,12 +1,15 @@
 <template>
-  <NuxtLayout
-    ><NuxtPage
-      :transition="{
-        name: 'fade',
-        mode: 'out-in',
-      }"
-    ></NuxtPage
-  ></NuxtLayout>
+  <div>
+    <AppGrain />
+    <NuxtLayout
+      ><NuxtPage
+        :transition="{
+          name: 'fade',
+          mode: 'out-in',
+        }"
+      ></NuxtPage
+    ></NuxtLayout>
+  </div>
 </template>
 <style>
 .fade-enter-active,
