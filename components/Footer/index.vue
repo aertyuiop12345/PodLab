@@ -68,7 +68,7 @@
       <div
         class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between gap-4 text-[10px] font-light uppercase tracking-widest text-[#F0EDE6]/30"
       >
-        <p>© 2024 PodLab Studio. Tous droits réservés.</p>
+        <p>© 2026 PodLab Studio. Tous droits réservés.</p>
       </div>
     </div>
   </footer>
