@@ -272,7 +272,7 @@
             </div>
           </div>
           <!-- Détails -->
-          <div class="p-0 md:p-8 flex flex-col justify-between">
+          <div class="p-2 md:p-8 flex flex-col justify-between">
             <div>
               <div class="flex items-center gap-3 mb-5">
                 <span
@@ -354,7 +354,7 @@
             ></iframe>
           </div>
 
-          <div class="p-0 md:p-6">
+          <div class="p-2 md:p-6">
             <div class="flex items-center gap-3 mb-3">
               <span
                 class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
@@ -420,7 +420,7 @@
               allowfullscreen
             ></iframe>
           </div>
-          <div class="p-0 md:p-6">
+          <div class="p-2 md:p-6">
             <div class="flex items-center gap-3 mb-3">
               <span
                 class="text-xs font-medium text-[#D4A853] bg-[#D4A853]/10 px-3 py-1 rounded-full italic"
