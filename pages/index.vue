@@ -281,18 +281,16 @@
                 >
               </div>
               <h3 class="text-2xl font-medium leading-snug mb-3">
-                L'art de la résilience en période de crise
+                Pour réussir, il faut vivre comme un orphelin
               </h3>
               <p class="text-sm text-[#D4A853] font-medium mb-4">
-                avec Jean-Pierre Dupont — CEO de Lumina
+                avec King Mensah — Artiste et Entrepreneur Social
               </p>
               <p
                 class="text-sm font-light text-[#F0EDE6]/55 leading-relaxed mb-6"
               >
-                Jean-Pierre revient sur les 18 mois les plus difficiles de sa
-                vie de dirigeant : licenciements, burn-out, et la renaissance
-                inattendue qui a suivi. Une conversation sans filtre sur la
-                vulnérabilité en entreprise.
+                King Mensah reconnaît avec fierté la main de Dieu dans sa
+                carrière et il en parle davantage dans notre podcast.
               </p>
               <div class="flex flex-wrap gap-2 mb-6">
                 <span
@@ -314,13 +312,15 @@
             >
               <div class="flex items-center gap-4 text-xs text-[#F0EDE6]/40">
                 <span class="flex items-center gap-1"
-                  ><Icon name="solar:clock-linear"></Icon> 54 min</span
+                  ><Icon name="solar:clock-linear"></Icon> 1h 52 min</span
                 >
                 <span class="flex items-center gap-1"
-                  ><Icon name="solar:eye-linear"></Icon> 12 400 vues</span
+                  ><Icon name="solar:eye-linear"></Icon> Plus de 20 000
+                  vues</span
                 >
                 <span class="flex items-center gap-1"
-                  ><Icon name="solar:calendar-linear"></Icon> 28 fév. 2025</span
+                  ><Icon name="solar:calendar-linear"></Icon> 01 mars.
+                  2026</span
                 >
               </div>
               <div class="flex gap-3">
@@ -356,16 +356,6 @@
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-            <div class="absolute inset-0 flex items-center justify-center">
-              <div
-                class="play-btn w-14 h-14 rounded-full bg-[#D4A853] flex items-center justify-center shadow-xl shadow-[#D4A853]/30 group-hover:scale-110 transition-transform duration-300"
-              >
-                <Icon
-                  name="solar:play-bold"
-                  class="text-xl text-[#0A0A0A] ml-0.5"
-                ></Icon>
-              </div>
-            </div>
           </div>
 
           <div class="p-6">
@@ -376,39 +366,40 @@
               >
             </div>
             <h3 class="text-lg font-medium mb-2">
-              Pourquoi le design sauvera le monde
+              J’ai trouvé Dieu dans le vodoun et ça m’a permis de survivre dans
+              la musique.
             </h3>
             <p class="text-sm text-[#D4A853]/80 mb-3">
-              avec Sophie Renoir — Designer Produit
+              avec BOBO Wê — Artiste Chanteur
             </p>
             <p
               class="text-xs font-light text-[#F0EDE6]/45 leading-relaxed mb-5"
             >
-              Sophie explore comment le design centré sur l'humain transforme
-              les industries et façonne des expériences qui changent des vies à
-              grande échelle.
+              Derrière le village, il y a un autre village et BOBO WÊ en a vécu
+              l'histoire la plus incroyable ... Cette anecdote a changé sa
+              vision du respect.
             </p>
             <div class="flex flex-wrap gap-2 mb-5">
               <span
                 class="text-[10px] uppercase tracking-widest px-2 py-1 rounded-full border border-white/10 text-white/35"
-                >Design</span
+                >Carrière</span
               >
               <span
                 class="text-[10px] uppercase tracking-widest px-2 py-1 rounded-full border border-white/10 text-white/35"
-                >Innovation</span
+                >Rencontre</span
               >
             </div>
             <div
               class="border-t border-white/5 pt-5 flex items-center gap-4 text-xs text-[#F0EDE6]/35"
             >
               <span class="flex items-center gap-1"
-                ><Icon name="solar:clock-linear"></Icon> 42 min</span
+                ><Icon name="solar:clock-linear"></Icon> 1h 33 min</span
               >
               <span class="flex items-center gap-1"
-                ><Icon name="solar:eye-linear"></Icon> 8 700 vues</span
+                ><Icon name="solar:eye-linear"></Icon> Plus de 60 000 vues</span
               >
               <span class="flex items-center gap-1"
-                ><Icon name="solar:calendar-linear"></Icon> 14 fév. 2025</span
+                ><Icon name="solar:calendar-linear"></Icon> 19 oct. 2025</span
               >
             </div>
           </div>
@@ -433,16 +424,6 @@
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-            <div class="absolute inset-0 flex items-center justify-center">
-              <div
-                class="play-btn w-14 h-14 rounded-full bg-[#D4A853] flex items-center justify-center shadow-xl shadow-[#D4A853]/30 group-hover:scale-110 transition-transform duration-300"
-              >
-                <Icon
-                  name="solar:play-bold"
-                  class="text-xl text-[#0A0A0A] ml-0.5"
-                ></Icon>
-              </div>
-            </div>
           </div>
           <div class="p-6">
             <div class="flex items-center gap-3 mb-3">
@@ -451,16 +432,15 @@
                 >Épisode #122</span
               >
             </div>
-            <h3 class="text-lg font-medium mb-2">La solitude du fondateur</h3>
+            <h3 class="text-lg font-medium mb-2">De 400.000F à 4 MILLIARDS</h3>
             <p class="text-sm text-[#D4A853]/80 mb-3">
-              avec Karim Benzé — Serial Entrepreneur
+              avec Aziz Yerima — Entrepreneur
             </p>
             <p
               class="text-xs font-light text-[#F0EDE6]/45 leading-relaxed mb-5"
             >
-              Karim brise le mythe du fondateur invulnérable et parle
-              ouvertement de l'isolement, de la thérapie, et de ce qu'il a
-              appris en construisant trois entreprises en dix ans.
+              Il s'agit d'Aziz Yérima, fondateur de la FinTech PayDunya, dont le
+              parcours est inspirant pour tout entrepreneur ambitieux.
             </p>
             <div class="flex flex-wrap gap-2 mb-5">
               <span
@@ -476,13 +456,13 @@
               class="border-t border-white/5 pt-5 flex items-center gap-4 text-xs text-[#F0EDE6]/35"
             >
               <span class="flex items-center gap-1"
-                ><Icon name="solar:clock-linear"></Icon> 68 min</span
+                ><Icon name="solar:clock-linear"></Icon> 3h 45 min</span
               >
               <span class="flex items-center gap-1"
-                ><Icon name="solar:eye-linear"></Icon> 21 300 vues</span
+                ><Icon name="solar:eye-linear"></Icon> Plus de 11 000 vues</span
               >
               <span class="flex items-center gap-1"
-                ><Icon name="solar:calendar-linear"></Icon> 1 fév. 2025</span
+                ><Icon name="solar:calendar-linear"></Icon> 8 mars. 2026</span
               >
             </div>
           </div>
@@ -559,14 +539,15 @@
               </div>
               <div class="flex-1">
                 <div class="flex items-center justify-between mb-1">
-                  <h4 class="font-medium text-sm">Studio Bénin — Cotonou</h4>
+                  <h4 class="font-medium text-sm">Studio d'enregistrement</h4>
                   <span
                     class="text-[9px] uppercase tracking-widest px-2 py-0.5 rounded-full bg-[#D4A853]/10 text-[#D4A853] font-semibold"
                     >Principal</span
                   >
                 </div>
-                <p class="text-xs text-[#F0EDE6]/45 mb-2">
-                  12 Rue de Bretagne, 75003 Paris
+                <p class="text-xs text-[#F0EDE6]/45">Cotonou - Bénin</p>
+                <p class="text-xs text-[#F0EDE6]/45 my-2">
+                  Téléphone : 01 97 10 62 88
                 </p>
                 <p class="text-xs text-[#F0EDE6]/35">
                   Épisodes #100 → #124 • Capacité 6 pers.

@@ -19,6 +19,41 @@ export default defineNuxtConfig({
      */
     componentDir: "@/components/ui",
   },
+  app: {
+    head: {
+      title:
+        "PodLab Studio | Conversations avec les Artistes et Entrepreneurs de Demain",
+      meta: [
+        { charset: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        {
+          name: "description",
+          content:
+            "Découvrez PodLab Studio, le podcast de référence avec les créateurs qui façonnent l'avenir. Histoires vraies et leçons de business.",
+        },
+        // Open Graph / Facebook
+        { property: "og:type", content: "website" },
+        {
+          property: "og:title",
+          content: "PodLab Studio | Conversations Inspirantes",
+        },
+        {
+          property: "og:description",
+          content:
+            "Plongez dans les coulisses de la création et de l'innovation avec les leaders de demain.",
+        },
+        { property: "og:image", content: "/og-image.jpg" },
+        // Twitter
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:title", content: "PodLab Studio" },
+        {
+          name: "twitter:description",
+          content: "Histoires vraies. Leçons réelles. Un business différent.",
+        },
+      ],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    },
+  },
   css: ["~/assets/css/tailwind.css"],
   vite: {
     plugins: [tailwindcss()],
