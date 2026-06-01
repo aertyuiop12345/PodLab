@@ -45,7 +45,53 @@
       <h1
         class="text-5xl md:text-8xl font-medium tracking-tight mb-8 hero-item"
       >
-        <span class="text-underline-grow">PodLab</span>
+        <span class="text-underline-grow inline-flex items-center">
+          P<span
+            class="inline-flex items-center"
+            style="
+              width: 0.75em;
+              height: 0.75em;
+              vertical-align: middle;
+              margin: 0 0.01em;
+            "
+          >
+            <svg
+              class="w-full h-full"
+              viewBox="0 0 80 80"
+              xmlns="http://www.w3.org/2000/svg"
+              style="display: block"
+            >
+              <circle cx="40" cy="40" r="38" fill="white" />
+              <circle cx="40" cy="40" r="29" fill="black" />
+              <rect x="28" y="16" width="24" height="32" rx="12" fill="white" />
+              <path
+                d="M20 40 Q20 62 40 62 Q60 62 60 40"
+                stroke="white"
+                stroke-width="4.5"
+                fill="none"
+                stroke-linecap="round"
+              />
+              <line
+                x1="40"
+                y1="62"
+                x2="40"
+                y2="72"
+                stroke="white"
+                stroke-width="4.5"
+                stroke-linecap="round"
+              />
+              <line
+                x1="28"
+                y1="72"
+                x2="52"
+                y2="72"
+                stroke="white"
+                stroke-width="4.5"
+                stroke-linecap="round"
+              />
+            </svg> </span
+          >dLab
+        </span>
       </h1>
       <p
         class="text-lg md:text-xl font-light text-[#F0EDE6]/70 max-w-2xl mx-auto mb-12 hero-item"
@@ -272,7 +318,7 @@
             </div>
           </div>
           <!-- Détails -->
-          <div class="p-2 md:p-8 flex flex-col justify-between">
+          <div class="p-1 md:p-8 flex flex-col justify-between">
             <div>
               <div class="flex items-center gap-3 mb-5">
                 <span
@@ -463,6 +509,16 @@
           </div>
         </div>
       </div>
+
+      <div class="md:hidden flex items-center justify-center mt-15 fade-up">
+        <a
+          href="#invites"
+          class="border border-white/20 px-9 py-4 rounded-full font-semibold text-sm uppercase tracking-widest hover:border-[#D4A853] hover:text-[#D4A853] transition-all flex items-center justify-center gap-3"
+        >
+          Voir tous les épisodes
+          <Icon name="solar:arrow-right-outline"></Icon>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -480,7 +536,7 @@
         </h2>
         <p class="text-[#F0EDE6]/50 font-light max-w-xl">
           Chaque épisode naît dans un lieu chargé d'histoire. Retrouvez nos
-          studios à travers le monde.
+          studios à Cotonou.
         </p>
       </div>
 
@@ -542,12 +598,22 @@
                     >Principal</span
                   >
                 </div>
-                <p class="text-xs text-[#F0EDE6]/45">Cotonou - Bénin</p>
-                <p class="text-xs text-[#F0EDE6]/45 my-2">
-                  Téléphone : 01 97 10 62 88
+                <p class="text-xs text-[#F0EDE6]/50">Cotonou - Bénin</p>
+                <p class="text-xs text-[#F0EDE6]/50 my-2">
+                  Téléphone :
+                  <a href="tel:+2290197106288" class="hover:underline">
+                    01 97 10 62 88
+                  </a>
                 </p>
-                <p class="text-xs text-[#F0EDE6]/35">
-                  Épisodes #100 → #124 • Capacité 6 pers.
+
+                <p class="text-xs text-[#F0EDE6]/50">
+                  Email :
+                  <a
+                    href="mailto:studiopodlab@gmail.com"
+                    class="hover:underline"
+                  >
+                    studiopodlab@gmail.com
+                  </a>
                 </p>
               </div>
             </div>
@@ -710,13 +776,13 @@
           <form class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input
               type="email"
-              placeholder="Votre email"
+              placeholder="Votre em²ail"
               class="grow bg-white/5 border border-white/10 rounded-full px-8 py-4 focus:outline-none focus:border-[#D4A853] transition-all text-sm font-light"
             />
             <button
               class="bg-[#D4A853] text-[#0A0A0A] px-10 py-4 rounded-full font-semibold uppercase text-xs tracking-widest hover:bg-white transition-all"
             >
-              S'inscrire
+              S'abonner
             </button>
           </form>
         </div>
