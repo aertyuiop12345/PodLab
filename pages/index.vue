@@ -359,7 +359,7 @@
               </div>
             </div>
             <div
-              class="border-t border-white/5 pt-6 flex items-center justify-between"
+              class="border-t border-white/5 py-3 md:pt-5 md:pb-0 flex items-center justify-between"
             >
               <div class="flex items-center gap-4 text-xs text-[#F0EDE6]/40">
                 <span class="flex items-center gap-1"
@@ -433,7 +433,7 @@
               >
             </div>
             <div
-              class="border-t border-white/5 pt-5 flex items-center gap-4 text-xs text-[#F0EDE6]/35"
+              class="border-t border-white/5 py-3 md:pt-5 md:pb-0 flex items-center gap-4 text-xs text-[#F0EDE6]/35"
             >
               <span class="flex items-center gap-1"
                 ><Icon name="solar:clock-linear"></Icon> 1h 33 min</span
@@ -495,7 +495,7 @@
               >
             </div>
             <div
-              class="border-t border-white/5 pt-5 flex items-center gap-4 text-xs text-[#F0EDE6]/35"
+              class="border-t border-white/5 py-3 md:pt-5 md:pb-0 flex items-center gap-4 text-xs text-[#F0EDE6]/35"
             >
               <span class="flex items-center gap-1"
                 ><Icon name="solar:clock-linear"></Icon> 3h 45 min</span
