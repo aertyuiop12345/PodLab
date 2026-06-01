@@ -108,7 +108,8 @@
           Écouter maintenant
         </a>
         <a
-          href="#invites"
+          href="https://www.youtube.com/@PodlabStudio"
+          target="_blank"
           class="border border-white/20 px-10 py-5 rounded-full font-semibold text-sm uppercase tracking-widest hover:border-[#D4A853] hover:text-[#D4A853] transition-all flex items-center justify-center gap-3"
         >
           Voir les épisodes
@@ -512,7 +513,8 @@
 
       <div class="md:hidden flex items-center justify-center mt-15 fade-up">
         <a
-          href="#invites"
+          href="https://www.youtube.com/@PodlabStudio"
+          target="_blank"
           class="border border-white/20 px-9 py-4 rounded-full font-semibold text-sm uppercase tracking-widest hover:border-[#D4A853] hover:text-[#D4A853] transition-all flex items-center justify-center gap-3"
         >
           Voir tous les épisodes
