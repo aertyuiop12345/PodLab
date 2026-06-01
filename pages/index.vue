@@ -515,7 +515,7 @@
         <a
           href="https://www.youtube.com/@PodlabStudio"
           target="_blank"
-          class="border border-white/20 px-9 py-4 rounded-full font-semibold text-sm uppercase tracking-widest hover:border-[#D4A853] hover:text-[#D4A853] transition-all flex items-center justify-center gap-3"
+          class="border border-white/20 px-9 py-4 rounded-full font-semibold text-xs uppercase tracking-widest hover:border-[#D4A853] hover:text-[#D4A853] transition-all flex items-center justify-center gap-3"
         >
           Voir tous les épisodes
           <Icon name="solar:arrow-right-outline"></Icon>
