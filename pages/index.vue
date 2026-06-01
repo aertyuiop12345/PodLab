@@ -45,7 +45,7 @@
       <h1
         class="text-5xl md:text-8xl font-medium tracking-tight mb-8 hero-item"
       >
-        <span class="text-underline-grow">PodLab Studio</span>
+        <span class="text-underline-grow">PodLab</span>
       </h1>
       <p
         class="text-lg md:text-xl font-light text-[#F0EDE6]/70 max-w-2xl mx-auto mb-12 hero-item"

@@ -21,20 +21,20 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "PodLab Studio | Création de Contenu Professionnel",
+      title: "PodLab | Création de Contenu Professionnel",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
           name: "description",
           content:
-            "Découvrez PodLab Studio, le podcast de référence avec les créateurs qui façonnent l'avenir. Histoires vraies et leçons de business.",
+            "Découvrez PodLab, le podcast de référence avec les créateurs qui façonnent l'avenir. Histoires vraies et leçons de business.",
         },
         // Open Graph / Facebook
         { property: "og:type", content: "website" },
         {
           property: "og:title",
-          content: "PodLab Studio | Conversations Inspirantes",
+          content: "PodLab | Conversations Inspirantes",
         },
         {
           property: "og:description",
@@ -44,7 +44,7 @@ export default defineNuxtConfig({
         { property: "og:image", content: "/og-image.jpg" },
         // Twitter
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: "PodLab Studio" },
+        { name: "twitter:title", content: "PodLab" },
         {
           name: "twitter:description",
           content: "Histoires vraies. Leçons réelles. Un business différent.",
